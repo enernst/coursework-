@@ -1,0 +1,195 @@
+.header_top{
+    height: 600px;
+    background: rgb(48,6,74);
+background: -moz-linear-gradient(121deg, rgba(48,6,74,1) 5%, rgba(0,0,0,1) 21%, rgba(14,10,93,1) 42%, rgba(4,4,42,1) 59%, rgba(32,7,99,1) 80%, rgba(2,0,19,1) 97%);
+background: -webkit-linear-gradient(121deg, rgba(48,6,74,1) 5%, rgba(0,0,0,1) 21%, rgba(14,10,93,1) 42%, rgba(4,4,42,1) 59%, rgba(32,7,99,1) 80%, rgba(2,0,19,1) 97%);
+background: linear-gradient(121deg, rgba(48,6,74,1) 5%, rgba(0,0,0,1) 21%, rgba(14,10,93,1) 42%, rgba(4,4,42,1) 59%, rgba(32,7,99,1) 80%, rgba(2,0,19,1) 97%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#30064a",endColorstr="#020013",GradientType=1);
+}
+
+
+
+
+
+.catalog{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+       border: 1px solid transparent;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: all .2s;
+}
+.contact_us{
+    border: 1px solid white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px white;
+    color: white;
+}
+.catalog:hover{
+    border: 1px solid white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    position: absolute;
+    left: 850px;
+    top: 20px
+}
+.logo{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    color: black;
+    border:2px solid white;
+    background: white;
+    width: 100px;
+    height:15px;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0 20px 20px 20px;
+    transition: all .3s;
+
+}
+.logo:hover{
+    background: black;
+    color: white;
+    box-shadow: 1px 1px 3px 1px white;
+}
+.log_in{
+    font-family: 'Roboto', sans-serif;
+    background:#737373;
+    position: absolute;
+    color: white;
+    padding: 20px 50px;
+    left: 490px;
+    top: 20px;
+    border-radius: 0 20px 20px 0;
+    transition:all .3s;
+}
+.log_in:hover{
+    background:black;
+    color: white;
+}
+.sign_up{
+    font-family: 'Roboto', sans-serif;
+    background: #292828;
+    position: absolute;
+    color:white;
+    padding: 20px 50px;
+    left: 340px;
+    top: 20px;
+    border-radius:20px 0 0 20px;
+    transition:all .3s;
+}
+.sign_up:hover{
+    background:black;
+    color:white;
+}
+.contact_us_tit{
+    position: absolute;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    top: 250px;
+    left: 200px;
+}
+.contact_us_txt{
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    top: 350px;
+    left: 200px;
+    line-height: 30px
+}
+.call{
+    position: absolute;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    left: 200px;
+    top: 450px;
+    transition:all .3s;
+    border-radius: 30px;
+}
+.write{
+    position: absolute;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    left: 320px;
+    top: 450px;
+    transition:all .3s;
+     border-radius: 30px;
+}
+.call:hover{
+    border-radius: 0px;
+}
+.write:hover{
+    border-radius: 0px;
+}
+.img{
+    height: 500px;
+    width: 500px;
+    background: rgb(17,4,52);
+background: -moz-linear-gradient(331deg, rgba(17,4,52,1) 24%, rgba(78,12,255,1) 55%, rgba(254,11,249,1) 80%, rgba(2,0,19,1) 97%);
+background: -webkit-linear-gradient(331deg, rgba(17,4,52,1) 24%, rgba(78,12,255,1) 55%, rgba(254,11,249,1) 80%, rgba(2,0,19,1) 97%);
+background: linear-gradient(331deg, rgba(17,4,52,1) 24%, rgba(78,12,255,1) 55%, rgba(254,11,249,1) 80%, rgba(2,0,19,1) 97%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#110434",endColorstr="#020013",GradientType=1);
+    margin: 50px 0 50px 0;
+    position:relative;
+    left: 200px;
+}
+.tit{
+    position: relative;
+    left: 800px;
+    width: 540px;
+    top:-560px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.txt{
+    position: relative;
+    left: 800px;
+    width: 450px;
+    top:-520px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.block_1{
+    height: 600px;
+}
+.bttn{
+    border: 1px solid transparent;
+    background:black;
+    width: 100px;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    left: 800px;
+    top: -80px;
+    transition: all .3s;
+}
+.bttn:hover{
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+}
+
+
+
+
+
